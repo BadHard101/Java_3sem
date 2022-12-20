@@ -8,22 +8,25 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         Calendar input = new GregorianCalendar();
         Scanner in = new Scanner(System.in);
-        System.out.println("enter year: ");
+        System.out.print("Enter year: ");
         input.set(Calendar.YEAR, in.nextInt());
-        System.out.println("enter month: ");
+        System.out.print("Enter month: ");
         input.set(Calendar.MONTH, in.nextInt());
-        System.out.println("enter day of month: ");
+        System.out.print("Enter day of month: ");
         input.set(Calendar.DAY_OF_MONTH, in.nextInt());
-        System.out.println("enter hour: ");
+        System.out.print("Enter hour: ");
         input.set(Calendar.HOUR_OF_DAY, in.nextInt());
-        System.out.println("enter minutes: ");
+        System.out.print("Enter minutes: ");
         input.set(Calendar.MINUTE, in.nextInt());
-        System.out.println("enter seconds: ");
+        System.out.print("Enter seconds: ");
         input.set(Calendar.SECOND, in.nextInt());
 
         Calendar now = new GregorianCalendar();
 
-        System.out.println("system time larger than entered time: " + now.after(input));
-
+        if (now.after(input))
+            System.out.println("It's past!");
+        else {
+            System.out.println("It's future!");
+        }
     }
 }

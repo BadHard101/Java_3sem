@@ -3,14 +3,13 @@ package kuznetsov.lab11.task03;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Scanner;
 
-public class Main {
+public class Student {
     private Calendar date_of_birth;
 
-    public Main(Calendar date_of_birth) {
+    public Student(Calendar date_of_birth) {
         this.date_of_birth = date_of_birth;
     }
 
@@ -21,9 +20,9 @@ public class Main {
 
     public static void main(String[] args) {
         Calendar date_of_birth = new GregorianCalendar(2003, 2, 9, 10, 0);
-        Main student = new Main(date_of_birth);
+        Student student = new Student(date_of_birth);
         Scanner in = new Scanner(System.in);
-        System.out.print("enter format for data output: ");
+        System.out.print("Enter format for data output: ");
         System.out.println(student.toString(in.nextLine()));
     }
 }

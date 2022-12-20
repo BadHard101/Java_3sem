@@ -67,9 +67,12 @@ public class Main {
         Student[] IDNumber = new Student[10];
 
         Student.setArray(IDNumber);
+
+        System.out.println("-----------mergeSort-----------");
         mergeSort(IDNumber, 0, 10);
         Student.outArray(IDNumber);
 
+        System.out.println("-----------quicksort-----------");
         quicksort(IDNumber, 0, 9);
         Student.outArray(IDNumber);
     }

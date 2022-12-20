@@ -4,16 +4,16 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Student[] IDNumber = new Student[10];
+        Student[] iDNumber = new Student[10];
         for(int i = 0; i < 10; i++){
-            IDNumber[i] = new Student((int) (Math.random() * 1000));
+            iDNumber[i] = new Student((int) (Math.random() * 1000));
         }
         for(int i = 1; i < 10; i++)
-            for(int j = i; j > 0 && IDNumber[j - 1].compareTo(IDNumber[j]) > 0; j--){
-                Student tmp = IDNumber[j - 1];
-                IDNumber[j - 1] = IDNumber[j];
-                IDNumber[j] = tmp;
+            for(int j = i; j > 0 && iDNumber[j - 1].compareTo(iDNumber[j]) > 0; j--){
+                Student tmp = iDNumber[j - 1];
+                iDNumber[j - 1] = iDNumber[j];
+                iDNumber[j] = tmp;
             }
-        System.out.println(Arrays.toString(IDNumber));
+        System.out.println(Arrays.toString(iDNumber));
     }
 }

@@ -1,13 +1,13 @@
 package kuznetsov.lab10.task01;
 
-public class Main {
+public class Student {
     private String name;
     private String surname;
     private String speciality;
     private int course;
     private int group;
 
-    public Main(String name, String surname, String speciality, int course, int group) {
+    public Student(String name, String surname, String speciality, int course, int group) {
         this.name = name;
         this.surname = surname;
         this.speciality = speciality;
