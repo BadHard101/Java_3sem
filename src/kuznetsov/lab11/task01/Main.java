@@ -7,7 +7,7 @@ import java.util.GregorianCalendar;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Calendar now = new GregorianCalendar();
-        System.out.println("developer: marov");
+        System.out.println("developer: kuznetsov");
         System.out.println("task accepted: " + now.getTime());
 
         Thread.sleep(1000);
