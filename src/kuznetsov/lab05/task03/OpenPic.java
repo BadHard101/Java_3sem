@@ -23,4 +23,5 @@ public class OpenPic {
         frame.getContentPane().add(panel);
         frame.pack();
         frame.setVisible(true);
-    }}
+    }
+}

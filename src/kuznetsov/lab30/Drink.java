@@ -1,0 +1,22 @@
+package kuznetsov.lab30;
+
+import java.io.Serializable;
+
+public final class Drink extends MenuItem implements Alchoholable, Serializable {
+    private double alcoholVol;
+    private DrinkTypeEnum type;
+    public Drink(String name, String description, int cost, DrinkTypeEnum type, double alcoholVol) {
+        super(name, description, cost);
+        this.type = type;
+        this.alcoholVol = alcoholVol;
+    }
+    public DrinkTypeEnum getType() {
+        return type;
+    }
+    public double getAlcoholVol() {
+        return alcoholVol;
+    }/////
+    public boolean isAlcoholicDrink() {
+        return alcoholVol > 0;
+    }/////
+}
