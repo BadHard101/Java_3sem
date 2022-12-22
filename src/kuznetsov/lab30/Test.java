@@ -2,8 +2,8 @@ package kuznetsov.lab30;
 
 public class Test {
     public static void main(String[] args) {
-        TableOrdersManager orderManager = new TableOrdersManager();
-        InternetOrdersManager orderManager2 = new InternetOrdersManager();
+        TableOrdersManager tableOrdersManager = new TableOrdersManager();
+        InternetOrdersManager internetOrdersManager = new InternetOrdersManager();
 
         Customer customer;
         String firstName = "Ivan";
@@ -25,19 +25,19 @@ public class Test {
         order1.add(new Drink("cola", "0.5", 100, DrinkTypeEnum.COLA, 0));
         order2.add(new Drink("cola", "0.5", 100, DrinkTypeEnum.COLA, 0));
         order3.add(new Drink("cola", "0.5", 100, DrinkTypeEnum.COLA, 0));
-        orderManager.add(order1, 1);
-        orderManager.add(order2, 2);
-        orderManager2.add(order2);
-        orderManager2.add(order3);
-        System.out.println(orderManager.itemsQuantity("cola"));
-        System.out.println(orderManager2.itemsQuantity("cola"));
-        System.out.println(orderManager.ordersQuantity());
-        System.out.println(orderManager2.ordersQuantity());
-        System.out.println(orderManager.ordersCostSummary());
-        System.out.println(orderManager2.ordersCostSummary());
-        System.out.println(orderManager.remove(0));
-        System.out.println(orderManager2.remove());
-        System.out.println(orderManager.ordersQuantity());
-        System.out.println(orderManager2.ordersQuantity());
+        tableOrdersManager.add(order1, 1);
+        tableOrdersManager.add(order2, 2);
+        internetOrdersManager.add(order2);
+        internetOrdersManager.add(order3);
+        System.out.println(tableOrdersManager.itemsQuantity("cola"));
+        System.out.println(internetOrdersManager.itemsQuantity("cola"));
+        System.out.println(tableOrdersManager.ordersQuantity());
+        System.out.println(internetOrdersManager.ordersQuantity());
+        System.out.println(tableOrdersManager.ordersCostSummary());
+        System.out.println(internetOrdersManager.ordersCostSummary());
+        System.out.println(tableOrdersManager.remove(0));
+        System.out.println(internetOrdersManager.remove());
+        System.out.println(tableOrdersManager.ordersQuantity());
+        System.out.println(internetOrdersManager.ordersQuantity());
     }
 }

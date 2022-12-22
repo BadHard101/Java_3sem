@@ -7,6 +7,7 @@ public final class Customer implements Serializable {
     private String secondName;
     private Address address;
     private int age;
+
     private static Customer MATURE_UNKNOWN_CUSTOMER = new Customer("Unknown", "Unknown", Address.EMPTY_ADDRESS, 21);
     private static Customer NOT_MATURE_UNKNOWN_CUSTOMER = new Customer("Unknown", "Unknown", Address.EMPTY_ADDRESS, 17);
     public Customer(String firstName, String secondName, Address address, int age) {

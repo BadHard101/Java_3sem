@@ -19,20 +19,18 @@ public class Main {
         OrderManager orderManager = new OrderManager();
 
         Order order = new InternetOrder();
-        order.add(new Drink("Coca-Cola", "Coca-Cola", 100));
+        order.add(new Drink("Pepsi", "carbonated drink 1.5 liters", 89));
         Order order2 = new InternetOrder();
-        order2.add(new Drink("Coca-Cola", "Coca-Cola", 100));
+        order2.add(new Drink("Dobriy - Apple juice", "not carbonated drink 1.5 liters", 179));
         Order order3 = new InternetOrder();
-        order3.add(new Dish("Pizza", "Pizza", 1000));
+        order3.add(new Dish("Chicken fillet", "chopped chicken breast meat", 328));
+        order3.add(new Dish("Pepsi", "carbonated drink 1.5 liters", 89));
 
-        orderManager.add("address1", order);
-        orderManager.add("address2", order2);
-        orderManager.add("address3", order3);
+        orderManager.add("Room 1 - window", order);
+        orderManager.add("Room 2 - Hall", order2);
+        orderManager.add("Room 1 - Hall", order3);
 
-        System.out.println(orderManager.sameDishQuantity("Coca-Cola"));
-        Dish dish = new Dish("Pizza", "Pizza", -1);
-        order2.add(dish);
-        orderManager.add("address2", order2);
+        System.out.println(orderManager.sameDishQuantity("Pepsi"));
 
         for (Order ord :
                 orderManager.getOrders()) {

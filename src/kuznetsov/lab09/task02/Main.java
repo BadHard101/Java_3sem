@@ -40,5 +40,8 @@ public class Main {
         quicksort(IDNumber, 0, 9);
 
         System.out.println(Arrays.toString(IDNumber));
+        for (int i = 0; i < IDNumber.length; i++) {
+            System.out.println(IDNumber[i]);
+        }
     }
 }

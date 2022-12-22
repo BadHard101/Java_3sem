@@ -21,6 +21,6 @@ public class Student implements Comparable<Student> {
     public String toString() {
         return "Student{" +
                 "gpa=" + gpa +
-                '}' + "\n";
+                '}';
     }
 }

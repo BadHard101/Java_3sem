@@ -7,7 +7,7 @@ public class OpenPic {
         JFrame frame = new JFrame ("Your Picture");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        System.out.print("Enter the path of your picture: ");
+        System.out.print("Enter the path of your picture: "); //D:\BadHard exp\pics\pic.jpg
         Scanner scanner = new Scanner(System.in);
         String path = scanner.nextLine();
 

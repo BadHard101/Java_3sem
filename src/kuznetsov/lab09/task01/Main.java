@@ -14,6 +14,6 @@ public class Main {
                 iDNumber[j - 1] = iDNumber[j];
                 iDNumber[j] = tmp;
             }
-        System.out.println(Arrays.toString(iDNumber));
+        System.out.print(Arrays.toString(iDNumber));
     }
 }
