@@ -32,7 +32,7 @@ public class Test {
         order1.add(new Drink("BRANDY", "0.5", 512, DrinkTypeEnum.BRANDY, 24));
         order2.add(new Drink("CHAMPAGNE", "1.0", 233, DrinkTypeEnum.CHAMPAGNE, 2));
         order3.add(new Drink("BEER", "1.2", 290, DrinkTypeEnum.BEER, 5));
-        order4.add(new Drink("COFFEE", "0.3", 109, DrinkTypeEnum.COFFEE, 0));
+        order4.add(new Drink("COFFEE", "0.3", -1, DrinkTypeEnum.COFFEE, -1));
 
         tableOrdersManager.add(order1, 5);
         tableOrdersManager.add(order2, 7);

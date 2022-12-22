@@ -42,9 +42,9 @@ public class Figure extends JFrame{
 
 
 
-        int border_space = 60;
-        int x_space = 350;
-        int y_space = 250;
+        int border_space = 50;
+        int x_space = 300;
+        int y_space = 200;
         int near_border = 40;
         int far_border = near_border*3;
         int difference = far_border - near_border;
