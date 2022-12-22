@@ -54,7 +54,7 @@ public class Test {
         System.out.println("Amount of tables orders: " + tableOrdersManager.ordersQuantity());
         System.out.println("Amount of internet orders: " + internetOrdersManager.ordersQuantity());
 
-        System.out.println("Removed the head internet order with items: " + Arrays.toString(internetOrdersManager.remove().getItems()));
+        System.out.println("Removed the head internet order with item: " + Arrays.toString(internetOrdersManager.remove().getItems()));
         System.out.println("Amount of tables orders: " + tableOrdersManager.ordersQuantity());
         System.out.println("Amount of internet orders: " + internetOrdersManager.ordersQuantity());
     }
