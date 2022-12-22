@@ -25,7 +25,7 @@ public class DogKennel {
                     "2 - Add a new dog\n" +
                     "3 - Delete the dog by name\n" +
                     "4 - Print 'Human' age of the dog by name\n" +
-                    "0 - Exit" +
+                    "0 - Exit\n" +
                     "Enter: ");
             flag = scanner.nextInt();
             switch (flag) {
