@@ -11,7 +11,7 @@ public class Main {
         System.out.print("Enter year: ");
         input.set(Calendar.YEAR, in.nextInt());
         System.out.print("Enter month: ");
-        input.set(Calendar.MONTH, in.nextInt());
+        input.set(Calendar.MONTH, in.nextInt() - 1);
         System.out.print("Enter day of month: ");
         input.set(Calendar.DAY_OF_MONTH, in.nextInt());
         System.out.print("Enter hour: ");

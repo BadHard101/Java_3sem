@@ -10,7 +10,7 @@ public class Main {
         System.out.println("developer: kuznetsov");
         System.out.println("task accepted: " + now.getTime());
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         Date after = new Date();
         System.out.println("task completed: " + after);
     }

@@ -32,8 +32,8 @@ public class Main implements Stringable{
 
     public static void main(String[] args) {
         Stringable test = new Main();
-        System.out.println(test.char_counter("I like Java"));
-        System.out.println(test.odd_positioner("It likes me"));
-        System.out.println(test.reverser("Andrew"));
+        System.out.println("Char_counter of string 'I like Java': " + test.char_counter("I like Java"));
+        System.out.println("Odd_positioner of string 'It likes me': " + test.odd_positioner("It likes me"));
+        System.out.println("Reverser for string 'Andrew': " + test.reverser("Andrew"));
     }
 }
