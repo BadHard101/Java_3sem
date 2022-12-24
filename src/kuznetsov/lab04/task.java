@@ -1,4 +1,4 @@
-package kuznetsov.lab04.task01;
+package kuznetsov.lab04;
 
 public class task {
     public static void main(String[] args) {
