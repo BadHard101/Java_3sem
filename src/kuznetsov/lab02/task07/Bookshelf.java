@@ -1,4 +1,4 @@
-package kuznetsov.lab03.task07;
+package kuznetsov.lab02.task07;
 
 import java.util.ArrayList;
 import java.util.Collections;

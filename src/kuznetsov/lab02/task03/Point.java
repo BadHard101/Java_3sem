@@ -1,4 +1,4 @@
-package kuznetsov.lab03.task06;
+package kuznetsov.lab02.task03;
 
 public class Point {
     private String name = "point";

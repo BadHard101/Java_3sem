@@ -1,4 +1,4 @@
-package kuznetsov.lab03.task01;
+package kuznetsov.lab02.task01;
 
 public class Author {
     private String name;

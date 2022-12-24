@@ -1,4 +1,4 @@
-package kuznetsov.lab03.task07;
+package kuznetsov.lab02.task07;
 
 public class Book implements Comparable<Book>{
     private String author = "unknown author";

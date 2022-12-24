@@ -1,4 +1,4 @@
-package kuznetsov.lab03.task04;
+package kuznetsov.lab02.task04;
 
 public class Computer {
     private int article = -1;

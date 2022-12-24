@@ -1,4 +1,4 @@
-package kuznetsov.lab03.task06;
+package kuznetsov.lab02.task06;
 
 public class Circle {
     private Point circleCentre;

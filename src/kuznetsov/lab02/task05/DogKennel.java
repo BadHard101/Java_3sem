@@ -1,4 +1,4 @@
-package kuznetsov.lab03.task05;
+package kuznetsov.lab02.task05;
 
 import java.util.ArrayList;
 import java.util.Scanner;

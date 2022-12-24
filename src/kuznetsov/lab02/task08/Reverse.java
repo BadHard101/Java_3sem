@@ -1,7 +1,6 @@
-package kuznetsov.lab03.task08;
+package kuznetsov.lab02.task08;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 public class Reverse {

@@ -1,4 +1,4 @@
-package kuznetsov.lab02.task02;
+package kuznetsov.lab03.task02;
 import java.util.*;
 
 /*

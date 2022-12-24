@@ -1,7 +1,4 @@
-package kuznetsov.lab02.task01;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
+package kuznetsov.lab03.task01;
 import java.util.Scanner;
 
 /*

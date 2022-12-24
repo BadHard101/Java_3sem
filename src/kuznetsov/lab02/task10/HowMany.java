@@ -1,4 +1,4 @@
-package kuznetsov.lab03.task10;
+package kuznetsov.lab02.task10;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;
