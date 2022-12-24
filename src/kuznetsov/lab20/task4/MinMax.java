@@ -1,5 +1,8 @@
 package kuznetsov.lab20.task4;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class MinMax <N extends Comparable<N>> {
     private N[] array;
 
@@ -30,7 +33,8 @@ public class MinMax <N extends Comparable<N>> {
     public static void main(String[] args) {
         Integer[] array = {1, 2, 3, 4, 5};
         MinMax<Integer> minMax = new MinMax<>(array);
-        System.out.println(minMax.getMax());
-        System.out.println(minMax.getMin());
+        System.out.println(Arrays.toString(array));
+        System.out.println("Max array number: " + minMax.getMax());
+        System.out.println("Min array number: " + minMax.getMin());
     }
 }

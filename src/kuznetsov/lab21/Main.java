@@ -13,15 +13,17 @@ public class Main<N> {
     }
     public void printArray() {
         for (N n : array) {
-            System.out.println(n);
+            System.out.print(n);
         }
+        System.out.println();
     }
     @SafeVarargs
     public final <T> void print5(T... objs) {
         List<Object> list = List.of(objs);
         for (int i = 0; i < 5; i++) {
-            System.out.println(list.get(i));
+            System.out.print(list.get(i));
         }
+        System.out.println();
     }
     public static void main(String[] args) {
         Integer[] intArray = {1, 2, 3, 4, 5};
@@ -41,6 +43,6 @@ public class Main<N> {
         System.out.println(charObj.get(2));
 
         intObj.print5(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-        intObj.print5('H', 'E', 'L', 'L', 'O');
+        intObj.print5('I', 'L', 'O', 'V', 'E');
     }
 }

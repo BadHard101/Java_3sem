@@ -30,7 +30,7 @@ public class Main {
         orderManager.add("Room 2 - Hall", order2);
         orderManager.add("Room 1 - Hall", order3);
 
-        System.out.println(orderManager.sameDishQuantity("Pepsi"));
+        System.out.println("Amount of same dishes in orders (now: 'Pepsi') - " + orderManager.sameDishQuantity("Pepsi"));
 
         for (Order ord :
                 orderManager.getOrders()) {

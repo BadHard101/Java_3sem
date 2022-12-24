@@ -66,12 +66,13 @@ public class Test {
         objectOutputStream.close();
 
 
+        System.out.println("--------------Serialization--------------");
         FileInputStream fileInputStream = new FileInputStream("C:\\Users\\badha\\Desktop\\save.ser");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
         OrderManager tableOrdersManager2 = (TableOrdersManager) objectInputStream.readObject();
 
-        System.out.println("----------------------------");
+        System.out.println("--------------Deserialization--------------");
         System.out.println("Amount of CHAMPAGNE in table orders: " + tableOrdersManager.itemsQuantity("CHAMPAGNE"));
         System.out.println("Full cost of table orders: " + tableOrdersManager.ordersCostSummary());
         System.out.println("Amount of tables orders: " + tableOrdersManager.ordersQuantity());
